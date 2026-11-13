@@ -1,4 +1,4 @@
 function PrimeJsxReturningUnclosed() {
-  return <div>011. PrimeJsxReturningUnclosed</div>;
+  return <input />;
 }
 export default PrimeJsxReturningUnclosed;

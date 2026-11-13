@@ -1,4 +1,10 @@
 function PrimeJsxReturningEmpty() {
-  return <div>012. PrimeJsxReturningEmpty</div>;
+  return (
+    <div>
+      <input />
+      <input />
+      <input />
+    </div>
+  );
 }
 export default PrimeJsxReturningEmpty;
