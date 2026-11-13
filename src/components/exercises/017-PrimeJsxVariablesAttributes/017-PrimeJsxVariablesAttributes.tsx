@@ -1,4 +1,6 @@
 function PrimeJsxVariablesAttributes() {
-  return <div>017. PrimeJsxVariablesAttributes</div>;
+  const attr = 'block';
+
+  return <div id={attr}>text</div>;
 }
 export default PrimeJsxVariablesAttributes;
