@@ -1,4 +1,12 @@
 function PrimeJsxTagsClosing() {
-  return <div>022. PrimeJsxTagsClosing</div>;
+  return (
+    <div>
+      <input />
+      <br />
+      <input />
+      <br />
+      <input />
+    </div>
+  );
 }
 export default PrimeJsxTagsClosing;

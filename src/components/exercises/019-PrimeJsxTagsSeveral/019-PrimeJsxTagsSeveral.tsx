@@ -5,7 +5,7 @@ function PrimeJsxTagsSeveral() {
 
   return (
     <ul>
-      {li1}, {li2}, {li3}
+      {li1} {li2} {li3}
     </ul>
   );
 }
