@@ -1,4 +1,8 @@
 function PrimeFunctionsTagsCalling() {
-  return <div>032. PrimeFunctionsTagsCalling</div>;
+  function square(num: number) {
+    return num ** 2;
+  }
+
+  return <div>{square(3)}</div>;
 }
 export default PrimeFunctionsTagsCalling;

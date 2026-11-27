@@ -1,4 +1,6 @@
 function PrimeConditionsLogicalAnd() {
-  return <div>029. PrimeConditionsLogicalAnd</div>;
+  const isAuth = true;
+
+  return <div>{isAuth && <p>вы авторизованы</p>}</div>;
 }
 export default PrimeConditionsLogicalAnd;

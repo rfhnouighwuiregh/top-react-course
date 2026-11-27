@@ -1,4 +1,6 @@
 function PrimeConditionsInverting() {
-  return <div>030. PrimeConditionsInverting</div>;
+  const isAuth = false;
+
+  return <div>{!isAuth && <p>пожалуйста, авторизуйтесь</p>}</div>;
 }
 export default PrimeConditionsInverting;
